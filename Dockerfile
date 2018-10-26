@@ -24,6 +24,5 @@ RUN apt-get update \
     chainer \
     torch torchvision \
     jupyter easydict pandas \
-    cupy \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
