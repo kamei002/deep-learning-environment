@@ -20,6 +20,6 @@ RUN apt-get update \
     tensorflow-gpu keras h5py \
     chainer \
     torch torchvision \
-    jupyter easydict pandas \
+    jupyter easydict pandas kaggle \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
